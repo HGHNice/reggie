@@ -71,8 +71,7 @@ public class DishImpl extends ServiceImpl<DishMapper, Dish> implements DishServi
     @Override
     public boolean batchUpdateStatusByIds(Integer status, List<Long> ids) {
         LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
-
-//对应的sql语句:SELECT id,name,category_id,price,code,image,description,status,sort,create_time,update_time,create_user,update_user,is_deleted FROM dish WHERE (id IN (?,?))
+        //对应的sql语句:SELECT id,name,category_id,price,code,image,description,status,sort,create_time,update_time,create_user,update_user,is_deleted FROM dish WHERE (id IN (?,?))
         queryWrapper.in(ids != null,Dish::getId,ids);
         List<Dish> list = this.list(queryWrapper);
         if (list != null){
