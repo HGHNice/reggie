@@ -31,16 +31,34 @@ public class LoginCheckFilter implements Filter {
                 "/employee/login",
                 "/employee/logout",
                 "/backend/**",
-                "/front/**"
+                "/front/**",
+                "/common/**",
+                "/user/sendMsg", //移动端发送短信
+                "/user/login"  // 移动端登陆
         };
         boolean check = check(urls, requestURI);
         if (check){
             filterChain.doFilter(request,response);
             return;
         }
-        if (request.getSession().getAttribute("employee")!=null){
-            Long empId = (Long) request.getSession().getAttribute("employee");
-            BaseContext.setCurrentId(empId);
+        //4-1判断登录状态，如果已登录，则直接放行
+        if(request.getSession().getAttribute("employee") != null){
+            //log.info("用户已登录，用户id为：{}",request.getSession().getAttribute("employee"));
+            //把用户id存储到本地的threadLocal
+            Long emId = (Long) request.getSession().getAttribute("employee");
+            BaseContext.setCurrentId(emId);
+
+            filterChain.doFilter(request,response);
+            return;
+        }
+
+        //4-2判断移动端登录状态，如果已登录，则直接放行
+        if(request.getSession().getAttribute("user") != null){
+            //log.info("用户已登录，用户id为：{}",request.getSession().getAttribute("user"));
+            //把用户id存储到本地的threadLocal
+            Long userId = (Long) request.getSession().getAttribute("user");
+            BaseContext.setCurrentId(userId);
+
             filterChain.doFilter(request,response);
             return;
         }

@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="第二次">
+    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="实现了除了移动端的功能">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/Utils/SMSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/Utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/SetmealDishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/SetmealDishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/SetmealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/SetmealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/DishImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/DishImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/SetmealImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/SetmealImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/front/page/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +28,7 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-    <option name="PARALLEL_COMPILATION" value="false" />
-    <option name="REBUILD_ON_DEPENDENCY_CHANGE" value="false" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +40,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/Utils/SMSUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/SetmealDishController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter/LoginCheckFilter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,12 +69,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Software/CODE_DATABASE/reggie/src/main/java/com/itheima/reggie/dto&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Software/CODE_DATABASE/reggie/src/main/java/com/itheima/reggie/Utils&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -70,11 +86,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\Utils" />
       <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\dto" />
       <recent name="D:\Software\CODE_DATABASE\reggie\src\main\resources\backend\page\demo" />
       <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\common" />
       <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\entity" />
-      <recent name="D:\Software\CODE_DATABASE\liyifeng\reggie\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ReggieApplication">
@@ -139,6 +155,13 @@
       <workItem from="1660216320948" duration="5315000" />
       <workItem from="1660271645140" duration="1660000" />
       <workItem from="1660312291743" duration="1100000" />
+      <workItem from="1660316738286" duration="1310000" />
+      <workItem from="1660404123675" duration="14000" />
+      <workItem from="1660554376543" duration="6263000" />
+      <workItem from="1660622045886" duration="3686000" />
+      <workItem from="1660724786815" duration="122000" />
+      <workItem from="1660726712207" duration="15000" />
+      <workItem from="1660737316136" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1659673158860</created>
@@ -161,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660121741637</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实现了除了移动端的功能">
+      <created>1660316772923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660316772923</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次" />
     <MESSAGE value="第二次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次" />
+    <MESSAGE value="实现了除了移动端的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现了除了移动端的功能" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
