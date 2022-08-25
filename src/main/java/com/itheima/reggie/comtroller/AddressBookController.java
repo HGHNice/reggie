@@ -75,6 +75,7 @@ public class AddressBookController {
     /**
      * 设置默认地址
      * 1表示默认地址
+     * 先全部设置成0 在单独设置当前传过来的地址标志字段为1
      */
     @PutMapping("default")
     public R<AddressBook> setDefault(@RequestBody AddressBook addressBook) {
