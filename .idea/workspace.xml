@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="移动端完善" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/Utils/SMSUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/SetmealDishController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/filter/LoginCheckFilter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/service/impl/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Cq1CtPJlpfEjSHFEp0rYfyB6eA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Markdown-Groovy.md.groovy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Software/CODE_DATABASE/reggie/src/main/resources/front&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.reggie.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Software\CODE_DATABASE\reggie\src\main\resources\front" />
+      <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\Utils" />
+      <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\dto" />
+      <recent name="D:\Software\CODE_DATABASE\reggie\src\main\resources\backend\page\demo" />
+      <recent name="D:\Software\CODE_DATABASE\reggie\src\main\java\com\itheima\reggie\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
+    <configuration name="All in reggie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="JUnit.All in reggie" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="" />
+      <created>1659515177021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659515177021</updated>
+      <workItem from="1659515179127" duration="824000" />
+      <workItem from="1659516023720" duration="2917000" />
+      <workItem from="1659525148938" duration="53000" />
+      <workItem from="1659525236720" duration="683000" />
+      <workItem from="1659525939450" duration="7944000" />
+      <workItem from="1659586089633" duration="1738000" />
+      <workItem from="1659603731456" duration="10316000" />
+      <workItem from="1659669928119" duration="524000" />
+      <workItem from="1659670466655" duration="7093000" />
+      <workItem from="1659690262931" duration="6420000" />
+      <workItem from="1659712013893" duration="1499000" />
+      <workItem from="1659755748545" duration="5987000" />
+      <workItem from="1659770112511" duration="9195000" />
+      <workItem from="1659794842647" duration="795000" />
+      <workItem from="1659842368146" duration="7208000" />
+      <workItem from="1659873215134" duration="2601000" />
+      <workItem from="1659926693447" duration="4984000" />
+      <workItem from="1659967493095" duration="1601000" />
+      <workItem from="1660015782676" duration="4360000" />
+      <workItem from="1660119728455" duration="7771000" />
+      <workItem from="1660138594796" duration="2584000" />
+      <workItem from="1660185518384" duration="3117000" />
+      <workItem from="1660216320948" duration="5315000" />
+      <workItem from="1660271645140" duration="1660000" />
+      <workItem from="1660312291743" duration="1100000" />
+      <workItem from="1660316738286" duration="1310000" />
+      <workItem from="1660404123675" duration="14000" />
+      <workItem from="1660554376543" duration="6263000" />
+      <workItem from="1660622045886" duration="3686000" />
+      <workItem from="1660724786815" duration="122000" />
+      <workItem from="1660726712207" duration="15000" />
+      <workItem from="1660737316136" duration="6216000" />
+      <workItem from="1660823860901" duration="9386000" />
+      <workItem from="1660840406025" duration="819000" />
+      <workItem from="1660879322457" duration="789000" />
+      <workItem from="1661222755619" duration="7000" />
+      <workItem from="1661224323213" duration="6000" />
+      <workItem from="1661438403856" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次">
+      <created>1659673158860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659673158860</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次">
+      <created>1660121682668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660121682668</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第二次">
+      <created>1660121741637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660121741637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="实现了除了移动端的功能">
+      <created>1660316772923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660316772923</updated>
+    </task>
+    <task id="LOCAL-00005" summary="移动端">
+      <created>1660737999701</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660737999701</updated>
+    </task>
+    <task id="LOCAL-00006" summary="移动端完善">
+      <created>1661438424795</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661438424795</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次" />
+    <MESSAGE value="第二次" />
+    <MESSAGE value="实现了除了移动端的功能" />
+    <MESSAGE value="移动端" />
+    <MESSAGE value="移动端完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动端完善" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
