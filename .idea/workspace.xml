@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="移动端完善">
-      <change afterPath="$PROJECT_DIR$/src/img/00874a5e-0df2-446b-8f69-a30eb7d88ee8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/057dd338-e487-4bbc-a74c-0384c44a9ca3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/097703f2-688c-4066-ace2-2998bf67ba72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/0a3b3288-3446-4420-bbff-f263d0c02d8e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/0f252364-a561-4e8d-8065-9a6797a6b1d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/0f4bd884-dc9c-4cf9-b59e-7d5958fec3dd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/1405081e-f545-42e1-86a2-f7559ae2e276.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/1fdbfbf3-1d86-4b29-a3fc-46345852f2f8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/2a2e9d66-b41d-4645-87bd-95f2cfeed218.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/2a50628e-7758-4c51-9fbb-d37c61cdacad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/2e96a7e3-affb-438e-b7c3-e1430df425c9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/3136bc74-ecad-47a2-821d-d829e1e1ea1d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/3fabb83a-1c09-4fd9-892b-4ef7457daafa.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/583df4b7-a159-4cfc-9543-4f666120b25f.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/5b8d2da3-3744-4bb3-acdc-329056b8259d.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/740c79ce-af29-41b8-b78d-5f49c96e38c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/793c6b8f-1803-40f5-83ba-44664c5da002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/7db16919-9eb0-46d0-98aa-9b302fdb500e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/804f5c02-d6c8-4f44-bcc8-0bb084a9567f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/84e67b4b-abd7-421b-82b3-b4dd52eae718.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/8dcfda14-5712-4d28-82f7-ae905b3c2308.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/9ec6fc2d-50d2-422e-b954-de87dcd04198.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/a53a4e6a-3b83-4044-87f9-9d49b30a8fdc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/c99e0aab-3cb7-4eaa-80fd-f47d4ffea694.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/d2f61d70-ac85-4529-9b74-6d9a2255c6d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/e476f679-5c15-436b-87fa-8c4e9644bf33.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ee04a05a-1230-46b6-8ad5-1a95b140fff3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/ef2b73f2-75d1-4d3a-beea-22da0e1421bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/f966a38e-0780-40be-bb52-5699d13cb3d9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bd727499-3f57-451c-9609-60dadebf5d70.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bd727499-3f57-451c-9609-60dadebf5d70.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="移动端完善" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -80,32 +49,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "Markdown-Groovy.md.groovy",
-    "last_opened_file_path": "D:/Software/CODE_DATABASE/reggie/src/main/resources",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.20689656",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "spring.configuration.checksum": "3acf5c7b740d6e2538f3a7b88cf069b3",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Markdown-Groovy.md.groovy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Software/CODE_DATABASE/reggie/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.itheima.reggie.dto" />
@@ -130,6 +99,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDataRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.SpringDataRedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="reggie" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.reggie.ReggieApplication" />
@@ -147,6 +157,9 @@
       <list>
         <item itemvalue="Spring Boot.ReggieApplication" />
         <item itemvalue="JUnit.All in reggie" />
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="JUnit.SpringDataRedisTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +271,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/v1.0" />
                       </list>
                     </value>
                   </entry>
