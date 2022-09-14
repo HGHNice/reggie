@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="Cache the verification code">
+    <list default="true" id="77ee7085-dfbd-499e-bebb-77e7ebfdd125" name="Changes" comment="Cache dish data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/ReggieApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/SetmealDishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/comtroller/SetmealDishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;3acf5c7b740d6e2538f3a7b88cf069b3&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -160,10 +163,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ReggieApplication" />
-        <item itemvalue="JUnit.All in reggie" />
-        <item itemvalue="Spring Boot.ReggieApplication" />
         <item itemvalue="JUnit.test.test" />
         <item itemvalue="JUnit.SpringDataRedisTest.test" />
+        <item itemvalue="JUnit.SpringDataRedisTest" />
+        <item itemvalue="JUnit.All in reggie" />
       </list>
     </recent_temporary>
   </component>
@@ -215,10 +218,7 @@
       <workItem from="1661438403856" duration="35000" />
       <workItem from="1661604387377" duration="1406000" />
       <workItem from="1661656807200" duration="624000" />
-      <workItem from="1662978905379" duration="167000" />
-      <workItem from="1662997034864" duration="1432000" />
-      <workItem from="1663047742747" duration="599000" />
-      <workItem from="1663074670849" duration="1501000" />
+      <workItem from="1663122522546" duration="3110000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1659673158860</created>
@@ -262,28 +262,7 @@
       <option name="project" value="LOCAL" />
       <updated>1661438424795</updated>
     </task>
-    <task id="LOCAL-00007" summary="加入redis配置">
-      <created>1662961565207</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1662961565208</updated>
-    </task>
-    <task id="LOCAL-00008" summary="加入redis配置">
-      <created>1662961578146</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1662961578146</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Cache the verification code">
-      <created>1662997120893</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1662997120893</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +279,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="v1.0" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -313,18 +292,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/reggie" />
-    </ignored-roots>
     <MESSAGE value="第一次" />
     <MESSAGE value="第二次" />
     <MESSAGE value="实现了除了移动端的功能" />
     <MESSAGE value="移动端" />
     <MESSAGE value="移动端完善" />
-    <MESSAGE value="加入redis配置" />
-    <MESSAGE value="Cache the verification code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cache the verification code" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动端完善" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
